@@ -1,0 +1,1 @@
+#ifndef __RCC_H__\n#define __RCC_H__\n\n#include \"gd32f470xx.h\"\n\n/* Function declarations */\nvoid rcc_init(void);\nvoid rcc_periph_clock_enable(rcu_periph_enum periph);\nvoid rcc_periph_clock_disable(rcu_periph_enum periph);\n\n#endif /* __RCC_H__ */\n
