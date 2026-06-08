@@ -1,0 +1,34 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Build outputs
+*.hex
+*.bin
+*.elf
+*.axf
+build/
+Debug/
+Release/
+
+# IDE
+.vscode/
+.idea/
+*.keil
+*.uvproj
+*.uvopt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
